@@ -99,20 +99,9 @@ export const pageStructure = (
                       .documentId("contact"),
                   ),
                 S.listItem()
-                  .title("Newsroom")
+                  .title("Blog")
                   .child(
-                    S.editor()
-                      .id("newsroom")
-                      .schemaType("newsroom")
-                      .documentId("newsroom"),
-                  ),
-                S.listItem()
-                  .title("Sponsors")
-                  .child(
-                    S.editor()
-                      .id("sponsors")
-                      .schemaType("sponsors")
-                      .documentId("sponsors"),
+                    S.editor().id("blog").schemaType("blog").documentId("blog"),
                   ),
                 S.listItem()
                   .title("Dynamic Pages")
